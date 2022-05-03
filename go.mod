@@ -9,7 +9,6 @@ require (
 	github.com/cucumber/godog v0.12.4
 	github.com/docker/cli v20.10.11+incompatible
 	github.com/docker/docker v20.10.12+incompatible
-	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/elastic/elastic-package v0.36.0
 	github.com/elastic/go-elasticsearch/v8 v8.0.0-20210317102009-a9d74cec0186
 	github.com/elastic/go-windows v1.0.1 // indirect

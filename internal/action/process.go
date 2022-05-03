@@ -12,7 +12,7 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 	"github.com/elastic/e2e-testing/internal/common"
-	"github.com/elastic/e2e-testing/internal/deploy"
+	"github.com/elastic/e2e-testing/dev-tools/deploy"
 	"github.com/elastic/e2e-testing/internal/utils"
 	"github.com/shirou/gopsutil/v3/process"
 	log "github.com/sirupsen/logrus"

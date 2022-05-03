@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/elastic/e2e-testing/internal/common"
-	"github.com/elastic/e2e-testing/internal/deploy"
+	"github.com/elastic/e2e-testing/dev-tools/deploy"
 	"github.com/elastic/e2e-testing/internal/systemd"
 	log "github.com/sirupsen/logrus"
 	"go.elastic.co/apm"

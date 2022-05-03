@@ -11,7 +11,7 @@ import (
 
 	"github.com/elastic/e2e-testing/internal/action"
 	"github.com/elastic/e2e-testing/internal/common"
-	"github.com/elastic/e2e-testing/internal/deploy"
+	"github.com/elastic/e2e-testing/dev-tools/deploy"
 	"github.com/elastic/e2e-testing/internal/utils"
 	log "github.com/sirupsen/logrus"
 )

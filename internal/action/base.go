@@ -7,7 +7,7 @@ package action
 import (
 	"context"
 
-	"github.com/elastic/e2e-testing/internal/deploy"
+	"github.com/elastic/e2e-testing/dev-tools/deploy"
 	log "github.com/sirupsen/logrus"
 	"go.elastic.co/apm"
 )
