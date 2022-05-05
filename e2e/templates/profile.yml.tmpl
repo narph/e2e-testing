@@ -16,7 +16,7 @@ services:
       - xpack.security.authc.api_key.enabled=true
       - xpack.security.authc.token.enabled=true
       - xpack.security.authc.token.timeout=60m
-      - ELASTIC_USERNAME=admin
+      - ELASTIC_USERNAME=elastic
       - ELASTIC_PASSWORD=changeme
     image: "docker.elastic.co/elasticsearch/elasticsearch:${stackVersion:-${STACK_VERSION}}"
     platform: ${stackPlatform:-linux/amd64}
