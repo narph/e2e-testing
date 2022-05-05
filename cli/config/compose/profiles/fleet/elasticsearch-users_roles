@@ -10,4 +10,4 @@ kibana_system:admin,kibana_system_user
 kibana_user:apm_server_user,apm_user_ro,beats_user,filebeat_user,heartbeat_user,metricbeat_user,opbeans_user
 metricbeat:metricbeat_user
 opbeans:opbeans_user
-superuser:admin
+superuser:elastic

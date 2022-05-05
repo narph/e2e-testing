@@ -16,8 +16,10 @@ services:
       - xpack.security.authc.api_key.enabled=true
       - xpack.security.authc.token.enabled=true
       - xpack.security.authc.token.timeout=60m
-      - ELASTIC_USERNAME=admin
+      - ingest.geoip.downloader.enabled=false
+      - ELASTIC_USERNAME=elastic
       - ELASTIC_PASSWORD=changeme
+
     image: "docker.elastic.co/elasticsearch/elasticsearch:${stackVersion:-8.3.0-0b6ea9f2-SNAPSHOT}"
     platform: ${stackPlatform:-linux/amd64}
     ports:
