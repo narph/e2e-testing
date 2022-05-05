@@ -5,8 +5,7 @@ server.host: "0.0.0.0"
 telemetry.enabled: false
 
 elasticsearch.hosts: [ "http://elasticsearch:9200" ]
-elasticsearch.username: elastic
-elasticsearch.password: changeme
+elasticsearch.serviceAccountToken: "AAEAAWVsYXN0aWMva2liYW5hL2VsYXN0aWMtcGFja2FnZS1raWJhbmEtdG9rZW46b2x4b051SWNRa0tYMHdXazdLWmFBdw"
 xpack.monitoring.ui.container.elasticsearch.enabled: true
 
 xpack.fleet.registryUrl: "https://epr-staging.elastic.co"
